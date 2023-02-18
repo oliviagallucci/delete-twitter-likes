@@ -3,8 +3,6 @@ Bulk delete Twitter likes
 
 ## Usage 
 
-[GIF]
-
 ### Steps 
 1. Open a browser of your choice 
    * I used Brave 
