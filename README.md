@@ -25,7 +25,7 @@ Be careful!
 ### Base script
 
 ```JavaScript
-unlikeInterval(() => {
+setInterval(() => {
   document.querySelectorAll('div[data-testid="unlike"]')[0].click(); 
   window.scrollTo(0, window.pageYOffset+300);
 }, 2000);
@@ -33,10 +33,10 @@ unlikeInterval(() => {
 
 #### Explanation
 
-This code uses JavaScript to automate the process of unliking posts on a web page. It sets up a function that uses the `unlikeInterval()` method to execute code repeatedly every 2000 milliseconds (or two seconds). Someone reported that waiting longer intervals--in this case, two seconds--decreases rate limiting by Twitter's API. 
+This code uses JavaScript to automate the process of unliking posts on a web page. It sets up a function that uses the `setInterval()` method to execute code repeatedly every 2000 milliseconds (or two seconds). Someone reported that waiting longer intervals--in this case, two seconds--decreases rate limiting by Twitter's API. 
 
 
-Within the `unlikeInterval()`, the program selects all the `div` elements with the `data-testid` attribute set to "unlike" using the `document.querySelectorAll()` method. It then clicks on the first element it finds using the `click()` method.
+Within the `setInterval()`, the program selects all the `div` elements with the `data-testid` attribute set to "unlike" using the `document.querySelectorAll()` method. It then clicks on the first element it finds using the `click()` method.
 
 After that, it scrolls the page down by 300 pixels using the `window.scrollTo()` method. This is done to make sure that more posts are loaded and available for unliking.
 
@@ -47,7 +47,7 @@ The code is meant to be executed in the browser console, and it assumes that the
 Here's an updated version of the JavaScript code that removes only the liked posts that were liked after 2020:
 
 ```JavaScript 
-unlikeIntervalerval(() => {
+setInterval(() => {
   // get all the like buttons in an array
   let likeButtons = Array.from(document.querySelectorAll('div[data-testid="unlike"]'));
 
@@ -81,7 +81,7 @@ The code then proceeds to click on the first recent like button found, and scrol
 ## Date 
 
 ```JavaScript
-unlikeIntervalerval(() => {
+setInterval(() => {
   // get all the like buttons in an array
   let likeButtons = Array.from(document.querySelectorAll('div[data-testid="unlike"]'));
 
