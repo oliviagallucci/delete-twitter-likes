@@ -3,7 +3,7 @@ Bulk delete Twitter likes
 
 ## Usage 
 
-
+![](https://github.com/oliviagallucci/delete-twitter-likes/blob/main/delete-twitter-likes-usage.gif)
 
 ### Steps 
 1. Open a browser of your choice. I used [Brave](https://brave.com/).
