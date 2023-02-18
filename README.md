@@ -1,5 +1,5 @@
 # delete-twitter-likes
-Bulk delete Twitter likes
+Bulk delete Tweets you have liked on Twitter! :bird:
 
 ## Usage 
 
