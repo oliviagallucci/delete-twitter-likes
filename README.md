@@ -76,7 +76,7 @@ The date of each like is obtained by finding the `title` attribute of the neares
 
 The code then proceeds to click on the first recent like button found, and scrolls down the page to load more posts as before.
 
-## Date 
+### Date 
 
 ```JavaScript
 setInterval(() => {
