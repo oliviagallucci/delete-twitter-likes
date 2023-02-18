@@ -18,9 +18,7 @@ It's worth noting that automating actions like this on social media platforms ca
 
 Be careful! 
 
-## Modifications 
-
-### Base script
+## Default script usage 
 
 ```JavaScript
 setInterval(() => {
@@ -29,7 +27,7 @@ setInterval(() => {
 }, 2000);
 ```
 
-#### Explanation
+### Explanation
 
 This code uses JavaScript to automate the process of unliking posts on a web page. It sets up a function that uses the `setInterval()` method to execute code repeatedly every 2000 milliseconds (or two seconds). Someone reported that waiting longer intervals--in this case, two seconds--decreases rate limiting by Twitter's API. 
 
@@ -40,7 +38,9 @@ After that, it scrolls the page down by 300 pixels using the `window.scrollTo()`
 
 The code is meant to be executed in the browser console, and it assumes that the page being viewed has a "unlike" button for each post, as well as a scrollbar that can be scrolled down. 
 
-### After year 
+## Modifications 
+
+### Specify year 
 
 Here's an updated version of the JavaScript code that removes only the liked posts that were liked after 2020:
 
