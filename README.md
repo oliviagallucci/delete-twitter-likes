@@ -3,12 +3,17 @@ Bulk delete Twitter likes
 
 ## Usage 
 
+
+
 ### Steps 
 1. Open a browser of your choice. I used [Brave](https://brave.com/).
 2. [Login](https://twitter.com/login?lang=en) to Twitter 
 3. Navigate to your likes page: https://twitter.com/your_username/likes
-4. Right-click anywhere on the page an hit `Inspect Element`
+4. Right-click anywhere on the page an hit `Inspect` or `Inspect Element`.
 5. Navigate to the console 
+6. Paste the [JavaScript](https://github.com/oliviagallucci/delete-twitter-likes#default-script-usage) into the console and hit the `enter` key on your keyboard. 
+7. Watch the script unlike posts
+8. Refresh your browser when you want to quit the script 
 
 ## Warranty and license
 This project is licensed under the General Public License version 3.0 - see the [LICENSE.md](LICENSE.md) file for details
