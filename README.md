@@ -6,7 +6,7 @@ Bulk delete Tweets you have liked on Twitter! :bird:
 ## Usage 
 ![](https://github.com/oliviagallucci/delete-twitter-likes/blob/main/delete-twitter-likes-usage.gif)
 
-### Steps 
+### Steps
 1. Open a browser of your choice. I used [Brave](https://brave.com/).
 2. [Login](https://twitter.com/login?lang=en) to Twitter 
 3. Navigate to your likes page: https://twitter.com/your_username/likes
