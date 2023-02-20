@@ -1,9 +1,9 @@
 
-# delete-twitter-likes 
-
 <div align="center">
+ 
+  # delete-twitter-likes 
 
-  <p>Bulk delete Tweets you have liked on Twitter! :bird:</p>
+  Bulk delete Tweets you have liked on Twitter! :bird:
   
   <a href="">![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)</a>
   <a href="">[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-green.svg?style=for-the-badge)](http://perso.crans.org/besson/LICENSE.html)</a> 
