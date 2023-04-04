@@ -36,8 +36,9 @@ Be careful!
 
 ```JavaScript
 setInterval(() => {
-  document.querySelectorAll('div[data-testid="unlike"]')[0].click(); 
   window.scrollTo(0, window.pageYOffset+300);
+  document.querySelectorAll('div[data-testid="unlike"]')[0].click(); 
+ 
 }, 2000);
 ```
 
@@ -60,6 +61,9 @@ Here's an updated version of the JavaScript code that removes only the liked pos
 
 ```JavaScript 
 setInterval(() => {
+ // scroll down the page to load more posts
+  window.scrollTo(0, window.pageYOffset+300);
+  
   // get all the like buttons in an array
   let likeButtons = Array.from(document.querySelectorAll('div[data-testid="unlike"]'));
 
@@ -79,8 +83,7 @@ setInterval(() => {
     recentLikeButtons[0].click();
   }
 
-  // scroll down the page to load more posts
-  window.scrollTo(0, window.pageYOffset+300);
+ 
 }, 2000);
 ```
 
@@ -94,6 +97,10 @@ The code then proceeds to click on the first recent like button found, and scrol
 
 ```JavaScript
 setInterval(() => {
+
+  // scroll down the page to load more posts
+  window.scrollTo(0, window.pageYOffset+300);
+  
   // get all the like buttons in an array
   let likeButtons = Array.from(document.querySelectorAll('div[data-testid="unlike"]'));
 
@@ -119,8 +126,6 @@ setInterval(() => {
     recentLikeButtons[0].click();
   }
 
-  // scroll down the page to load more posts
-  window.scrollTo(0, window.pageYOffset+300);
 }, 2000);
 ```
 
