@@ -26,9 +26,7 @@
 7. Watch the script unlike posts
 8. Refresh your browser when you want to quit the script 
 
-## Warranty and license
-This project is licensed under the General Public License version 3.0 - see the [LICENSE.md](LICENSE.md) file for details
-
+## Warning 
 It's worth noting that automating actions like this on social media platforms can be against their terms of service, and may result in account suspension or other consequences.
 
 Be careful! 
@@ -155,3 +153,6 @@ Use of this tool is entirely at the user's own risk. The author does not accept 
 Furthermore, the author expressly disclaims any responsibility or liability for the accuracy, content, or availability of information found through the use of this tool, or for any harm caused by viruses, malware, or other harmful components that may be introduced into your system as a result of using this tool.
 
 By using this tool, the user acknowledges that they have read this warranty statement and agree to assume all risks associated with its use.
+
+## License
+This project is licensed under the General Public License version 3.0 - see the [LICENSE.md](LICENSE.md) file for details
